@@ -2,7 +2,7 @@ name: 'MFE: Build and Deploy to GKE'
 
 on:
   push:
-    branches: ["thiago/docker-compose-and-gke-configurations"]
+    branches: ["deploy-configuration-adjustments"]
 
 env:
   APP: 'mfe'
