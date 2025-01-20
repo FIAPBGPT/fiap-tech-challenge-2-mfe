@@ -2,7 +2,7 @@ name: 'MFE: Build and Deploy to GKE'
 
 on:
   push:
-    branches: ["deploy-configuration-adjustments"]
+    branches: ["main"]
 
 env:
   APP: 'mfe'
